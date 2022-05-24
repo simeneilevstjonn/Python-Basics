@@ -58,7 +58,8 @@ half = .5
 # Converts 1.2 as text to a float
 a = float("1.2")
 
-# This is a common example of mathematical errors due to floating-points. b will in fact be equal to 0.30000000000000004 after this operation, rather than 0.3 as it should.
+# This is a common example of mathematical errors due to floating-points. 
+# b will in fact be equal to 0.30000000000000004 after this operation, rather than 0.3 as it should.
 b = .1 + .2
 ```
 
@@ -270,7 +271,8 @@ while True:
 ### For loops
 For loops execute for each element in a collection, or list. One common usage is to do something a given number of times.
 ```py
-# The range function is a collection of the natural numbers strictly less than 10. This means it does not include 10, though it does include 0. This code will execute 10 times.
+# The range function is a collection of the natural numbers strictly less than 10.
+# This means it does not include 10, though it does include 0. This code will execute 10 times.
 for i in range(10):
     print("This is iteration number: " + str(i))
 
