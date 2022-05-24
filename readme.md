@@ -303,5 +303,23 @@ for i in range(10):
     print("Hello " + str(i))
  ```
  
+## Functions
+Functions are blocks of code that can be executed when needed. They accept arguments, different variables that control what they will do. Functions can also return a value. We have already used the `print` function.
+
+To define a function, use the `def` keyword, then speciifying a name, followed by partentheses. These should contain the names of your arguments, comma separated, if you need any. Then use a colon, and indent the lines belonging to the function the same way you do it for `if`s.
+To return a value, use the `return` keyword. This immediately exits the function.
+
+Calling functions, you use it's name, and parentheses containing any arguments.
+Eg. `foo()` if there are no arguments, or `bar(1, 2, 3)` for three arguments.
+
+```py
+def exampleFunction():
+    print("This function prints a message")
  
- 
+# This function squares a number. n is the argument
+def sqr(n):
+    return n**2
+
+# This will print 4
+print(sqr(2))
+``` 
